@@ -12,7 +12,7 @@ class UnitTests(unittest.TestCase):
         actual = issubclass(shape_calculator.Square, shape_calculator.Rectangle)
         expected = True
         self.assertEqual(actual, expected, 'Expected Square class to be a subclass of the Rectangle class.')
-
+ 
     def test_distinct_classes(self):
         actual = shape_calculator.Square is not shape_calculator.Rectangle
         expected = True
